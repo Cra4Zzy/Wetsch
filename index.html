@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#eae9df" />
+  <meta name="description" content="WETSCH GmbH & Co. KG – eine unabhängige Designstudie für Erdbau, Transporte und Baustoffrecycling in Sittlingen bei Dinkelsbühl." />
+  <meta property="og:title" content="WETSCH – Auf gutem Grund | Konzeptstudie" />
+  <meta property="og:description" content="Eine eigenständige Webdesign-Demo für Wetsch in Sittlingen." />
+  <title>WETSCH — Auf gutem Grund · unabhängiges Websitekonzept</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Direkt zum Inhalt</a>
+  <div class="concept-note" role="note">UNABHÄNGIGE DESIGNSTUDIE VON KAISER WEBDESIGN · KEINE OFFIZIELLE WETSCH-WEBSITE</div>
+  <header class="header" id="top">
+    <div class="header-inner">
+      <a class="wordmark" href="#start" aria-label="Wetsch, zurück zum Anfang">wetsch<span>.</span><small>GMBH &amp; CO. KG</small></a>
+      <nav class="navigation" id="navigation" aria-label="Hauptnavigation">
+        <a href="#arbeit">Was wir tun</a>
+        <a href="#recycling">Baustoffrecycling</a>
+        <a href="#menschen">Karriere</a>
+        <a href="#kontakt" class="mobile-contact">Kontakt aufnehmen</a>
+      </nav>
+      <a class="header-contact" href="#kontakt">Projekt besprechen</a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="start" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-meta"><span class="status-mark"></span> SITTLINGEN · MITTELFRANKEN</div>
+        <h1 id="hero-title">Wir geben<br>Vorhaben<br><span>Boden.</span></h1>
+        <p>Wenn aus einer Idee etwas Echtes wird, braucht es einen starken Anfang. Erdbau, Schüttguttransporte und Baustoffrecycling aus der Region.</p>
+        <a class="action action-dark" href="#arbeit">Unsere Arbeit entdecken <span class="action-block" aria-hidden="true"></span></a>
+        <div class="hero-bottom-meta"><span>ERDBAU</span><span>TRANSPORTE</span><span>RECYCLING</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration einer großen Baumaschine als Symbol für Erdarbeiten">
+        <img class="photo hero-photo" src="https://images.unsplash.com/photo-1751054619908-65d27a503ce8?auto=format&fit=crop&w=1600&q=82" alt="Beispielaufnahme einer Baustelle, kein nachgewiesenes Wetsch-Projekt" decoding="async" fetchpriority="high" onerror="this.style.display='none'" />
+        <div class="hero-illustration" aria-hidden="true"></div>
+        <div class="hero-visual-grain" aria-hidden="true"></div>
+        <div class="hero-location"><span>GESTALTEN.<br>BEWEGEN.<br>WIEDERVERWENDEN.</span><small>91550 DINKELSBÜHL</small></div>
+        <span class="photo-caveat">SYMBOLBILD / ENTWURF</span>
+      </div>
+      <span class="hero-side-caption" aria-hidden="true">WETSCH / BAU UND MATERIAL</span>
+    </section>
+
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-lead"><span class="eyebrow">AUS DER REGION. FÜR DIE REGION.</span><h2 id="intro-title">Nicht einfach<br><span>irgendwas</span> bewegen.</h2></div>
+      <div class="intro-body"><div class="intro-shape" aria-hidden="true"><span>W</span></div><p>Von der ersten Schaufel Erde bis zum aufbereiteten Baustoff: Was zählt, ist die Arbeit, die am Ende wirklich etwas möglich macht.</p><span class="minor-note">WETSCH GMBH &amp; CO. KG / SITTLINGEN</span></div>
+    </section>
+
+    <section class="operations" id="arbeit" aria-labelledby="work-title">
+      <div class="operations-heading"><div><span class="eyebrow">WAS WIR TUN</span><h2 id="work-title">Unsere Welt.<br><span>Im Einsatz.</span></h2></div><p>Drei Bereiche, die zusammengehören. Entdecken Sie die Tätigkeiten hinter Wetsch – vom Aushub bis zur Materialaufbereitung.</p></div>
+      <div class="operations-grid">
+        <button type="button" class="operation op-earth is-selected" data-service="earth" aria-pressed="true">
+          <img class="photo" src="https://images.unsplash.com/photo-1667841686893-4a0b40e178b7?auto=format&fit=crop&w=1400&q=82" alt="Beispielbild aus dem Bereich Erdbau" loading="lazy" onerror="this.style.display='none'" />
+          <span class="operation-illustration earth-illustration" aria-hidden="true"></span>
+          <span class="picture-label">SYMBOLBILD</span>
+          <span class="operation-name"><small>01 / ARBEITSBEREICH</small><strong>Erdbau &amp;<br>Baggerarbeiten</strong></span>
+          <span class="operation-more">Bereich ansehen</span>
+        </button>
+        <button type="button" class="operation op-truck" data-service="truck" aria-pressed="false">
+          <img class="photo" src="https://images.unsplash.com/photo-1751054631354-a42bd7609d75?auto=format&fit=crop&w=1200&q=82" alt="Beispielbild für Schüttguttransporte" loading="lazy" onerror="this.style.display='none'" />
+          <span class="operation-illustration truck-illustration" aria-hidden="true"></span>
+          <span class="picture-label">SYMBOLBILD</span>
+          <span class="operation-name"><small>02 / ARBEITSBEREICH</small><strong>Schüttgut &amp;<br>Transporte</strong></span>
+          <span class="operation-more">Bereich ansehen</span>
+        </button>
+        <button type="button" class="operation op-material" data-service="material" aria-pressed="false">
+          <span class="aggregate-graphic" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+          <span class="operation-name"><small>03 / ARBEITSBEREICH</small><strong>Baustoff-<br>recycling</strong></span>
+          <span class="operation-more">Bereich ansehen</span>
+        </button>
+      </div>
+      <div class="service-detail" id="service-detail" aria-live="polite">
+        <div class="detail-stamp">IM FOKUS <span id="detail-num">01</span></div>
+        <div class="detail-copy"><h3 id="detail-title">Der erste Schritt für jedes Vorhaben.</h3><p id="detail-description">Erdarbeiten und Aushub schaffen die Grundlage für das, was anschließend gebaut wird. Wetsch ist im Bereich Erdbau und Baggerarbeiten tätig.</p></div>
+        <a id="detail-link" class="action action-light" href="mailto:wetsch@sittlingen.de?subject=Anfrage%20Erdbau">Dazu anfragen <span class="action-block" aria-hidden="true"></span></a>
+      </div>
+      <p class="disclaimer-small">Leistungsumfang und Bildmaterial sind Bestandteil einer Designstudie und vor Veröffentlichung mit Wetsch abzustimmen.</p>
+    </section>
+
+    <section class="recycle" id="recycling" aria-labelledby="recycling-title">
+      <div class="recycle-heading"><span class="eyebrow">BAUSTOFFRECYCLING IN SITTLINGEN</span><h2 id="recycling-title">Es hört nicht auf,<br><em>wenn etwas endet.</em></h2></div>
+      <div class="recycle-feature"><div class="recycle-graphic"><div class="stone-shape stone-a"></div><div class="stone-shape stone-b"></div><div class="stone-shape stone-c"></div><div class="stone-shape stone-d"></div><span class="recycle-caption">ROHSTOFFE BLEIBEN IM KREISLAUF</span></div>
+        <div class="recycle-copy"><p class="recycle-intro">Bauschutt und Straßenaufbruch sind nicht nur Abfall. Die Aufbereitung mineralischer Materialien hilft dabei, Ressourcen erneut nutzbar zu machen.</p><div class="stat-label">DOKUMENTIERTE ANLIEFERMENGE · 2024</div><div class="recycle-number">21.259 <small>t</small></div><p class="recycle-stat-context">Asphalt, Straßenaufbruch und Bauschutt an der dokumentierten Wetsch-Aufbereitungsanlage in Sittlingen.</p><a class="source-link" href="https://www.lfu.bayern.de/abfall/abfallbilanz/doc/abfallbilanzdaten_ansbachlandkreis_2024.pdf" target="_blank" rel="noopener noreferrer">Datengrundlage: Bayerisches Landesamt für Umwelt</a></div>
+      </div>
+      <div class="recycle-foot"><span>Material anliefern.</span><span>Wieder aufbereiten.</span><span>Wieder nutzen.</span></div>
+    </section>
+
+    <section class="statement" aria-label="Unsere Haltung"><div class="statement-visual"><img class="photo" src="https://images.unsplash.com/photo-1764422743505-97c9ea0e43f2?auto=format&fit=crop&w=1500&q=82" alt="Beispielbild aus der Baustoff- und Baubranche" loading="lazy" onerror="this.style.display='none'" /><span class="statement-grain"></span><span class="picture-label">SYMBOLBILD</span></div><div class="statement-copy"><span class="eyebrow">WENN AUS PLÄNEN REALITÄT WIRD</span><blockquote>„Am Ende zählt,<br>was <em>steht.</em>“</blockquote><p>Keine austauschbaren Versprechen. Sondern ein Auftritt, der von Arbeit, Maschinen und den Menschen dahinter erzählt.</p><span class="note-small">LEITGEDANKE DER DESIGNSTUDIE · KEIN ORIGINALZITAT VON WETSCH</span></div></section>
+
+    <section class="people" id="menschen" aria-labelledby="people-title"><div class="people-left"><span class="eyebrow">MENSCHEN BEI WETSCH</span><h2 id="people-title">Gute Leute.<br>Große Aufgaben.</h2><p>Baumaschinen führen, Transporte bewegen, Verantwortung übernehmen. Wer praktisch denkt und gerne anpackt, findet hier einen direkten Draht zum Unternehmen.</p><div class="job-tags"><span>Baugeräte</span><span>Transport</span><span>Baustellenteam</span></div><a class="action action-dark" href="mailto:gerd.wetsch@sittlingen.de?subject=Interesse%20an%20einer%20T%C3%A4tigkeit%20bei%20Wetsch">Kontakt zu Wetsch <span class="action-block" aria-hidden="true"></span></a><small>Die Begriffe dienen der Orientierung. Konkrete offene Stellen bitte direkt bei Wetsch erfragen.</small></div><div class="people-right"><div class="people-photo"><img class="photo" src="https://images.unsplash.com/photo-1751054631354-a42bd7609d75?auto=format&fit=crop&w=1200&q=82" alt="Beispielmotiv aus der Baubranche" loading="lazy" onerror="this.style.display='none'" /></div><div class="people-number">W.</div><span class="picture-label">SYMBOLBILD</span></div></section>
+
+    <section class="contact" id="kontakt" aria-labelledby="contact-title"><div class="contact-intro"><span class="eyebrow">WETSCH / SITTLINGEN</span><h2 id="contact-title">Ein Vorhaben?<br><span>Reden wir drüber.</span></h2><p>Von der konkreten Anfrage bis zur ersten Idee: Der direkte Kontakt ist oft der beste Anfang.</p><div class="contact-options"><a href="tel:+4998511730">09851 1730</a><a href="mailto:wetsch@sittlingen.de">wetsch@sittlingen.de</a></div><address>Wetsch GmbH &amp; Co. KG<br>Sittlingen 17 · 91550 Dinkelsbühl</address></div>
+      <form class="contact-form" id="contact-form"><span class="form-title">Worum geht's?</span><label for="client-name">Ihr Name <span aria-hidden="true">*</span></label><input id="client-name" name="name" autocomplete="name" maxlength="100" placeholder="Vor- und Nachname" required /><label for="client-email">Ihre E-Mail <span aria-hidden="true">*</span></label><input id="client-email" name="email" type="email" autocomplete="email" maxlength="150" placeholder="name@beispiel.de" required /><label for="client-topic">Thema</label><select id="client-topic" name="topic"><option value="Allgemeine Anfrage">Allgemeine Anfrage</option><option value="Erdbau">Erdbau &amp; Baggerarbeiten</option><option value="Transporte">Schüttguttransporte</option><option value="Recycling">Baustoffrecycling</option><option value="Karriere">Karriere</option></select><label for="client-message">Kurz beschrieben <span aria-hidden="true">*</span></label><textarea id="client-message" name="message" rows="3" maxlength="3000" placeholder="Worum geht es bei Ihrem Projekt?" required></textarea><button type="submit" class="form-submit">E-Mail vorbereiten <span aria-hidden="true">●</span></button><p>In dieser Demo wird nichts an einen Server versendet. Die Schaltfläche öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht.</p></form>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-top"><a class="footer-mark" href="#start">wetsch<span>.</span></a><a class="backtop" href="#start">Nach oben</a></div><div class="footer-lower"><span>WETSCH GMBH &amp; CO. KG · SITTLINGEN</span><span>UNABHÄNGIGE DESIGNSTUDIE · KAISER WEBDESIGN · <span id="year">2026</span></span></div><p>Keine offizielle Unternehmenswebsite. Die typografische Wortmarke ist ein Platzhalter; Bilder sind nicht als Wetsch-Fahrzeuge oder -Projekte verifiziert. Firmeninformationen müssen vor Veröffentlichung bestätigt sowie Impressum und Datenschutz ergänzt werden.</p></footer>
+</body>
+</html>
